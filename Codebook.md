@@ -1,4 +1,4 @@
-This codebook describes the variables, the data, and any transformations or work that you performed to clean up the data. 
+This codebook describes the data, the variables, and any transformations or work that I performed to clean up the data. 
 
 Description of Study: Human Activity Recognition Using Smartphones Dataset
 ==========================================================================
@@ -640,5 +640,12 @@ The complete list of variables of each feature vector is shown below:
 560 angle(Y,gravityMean)
 561 angle(Z,gravityMean)
 
+Transformations Applied to Clean the Dataset: 
+==============================================
 
+1. Merged the training and the test sets to create one data set.
+2. Extracted only the measurements on the mean and standard deviation for each measurement. 
+3. Used descriptive activity names to name the activities in the data set
+4. Appropriately labeled the data set with descriptive variable names. 
+5. From the data set in step 4, created a second, independent tidy data set with the average of each variable for each activity and each subject.
 
